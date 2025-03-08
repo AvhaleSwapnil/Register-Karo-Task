@@ -1,6 +1,6 @@
 import React from "react";
 import formation from "../assets/ourservices/formation.png";
-import computerSearch from "../assets/ourservices/computerSearch.png";
+import computerSearch from "../assets/ourservices/computersearch.png";
 import onlineAddress from "../assets/ourservices/onlineAddress.png";
 import cube from "../assets/ourservices/cube.png";
 import shop from "../assets/ourservices/shop.png";
