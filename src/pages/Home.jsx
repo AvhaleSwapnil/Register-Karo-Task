@@ -82,7 +82,7 @@ const Home = () => {
           </div>
 
           <div className="flex items-center gap-5">
-            <button className="bg-[#1C4670] text-[#FFFFFF] px-4 py-4">
+            <button className="bg-[#1C4670] text-[#FFFFFF] px-7 py-3">
               Talk An Export
             </button>
             <div className="flex gap-2">
