@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
+import { FaArrowCircleUp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
               Design outstanding interfaces with advanced Figma features in a
               matter of minutes.
             </p>
-            <div className="flex items-center gap-2 text-[#FFFFFF]">
+            <div className="flex items-center gap-2 mt-4 text-[#FFFFFF]">
               <FaFacebook />
               <FaGoogle />
               <FaApple />
@@ -58,6 +59,14 @@ const Footer = () => {
               <a href="">Media Kit</a>
             </div>
           </div>
+        </div>
+        <div className="text-center mt-30">
+          <button className="text-[#FFA229]">
+            <FaArrowCircleUp size={40} />
+          </button>
+          <p className="text-[#AAB5CD] mt-4">
+            © 2024 Registerkaro. All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>
