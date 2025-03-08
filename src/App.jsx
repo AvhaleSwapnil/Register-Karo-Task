@@ -2,14 +2,16 @@ import React from "react";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import OurServices from "./pages/OurServices";
+import About from "./pages/About";
 
 const App = () => {
   return (
-    <div className="">
+    <>
       <Header />
       <Home />
       <OurServices />
-    </div>
+      <About />
+    </>
   );
 };
 

@@ -9,7 +9,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const OurServices = () => {
   return (
-    <div className="px-5 md:px-10 lg:px-30 mt-20">
+    <div className="px-5 md:px-10 lg:px-30 pt-20">
       {/* Header */}
       <div className="text-center">
         <p className="text-[#EB8D15] tracking-wide text-sm md:text-base">
