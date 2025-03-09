@@ -10,7 +10,7 @@ import { FaPlayCircle } from "react-icons/fa";
 import HomeBottom from "../components/HomeBottom";
 const Home = () => {
   return (
-    <div className="min-h-screen w-full">
+    <div className="min-h-screen w-full relative">
       <main className="px-15 flex flex-wrap lg:flex-nowrap items-center lg:justify-between mt-8 lg:mt-16 gap-6 lg:gap-12 bg-gradient-to-b from-white via-[#F3F9FF] to-[#DFE9F4]">
         {/* Left */}
         <div className="w-full lg:w-1/2 flex flex-col gap-5 text-center lg:text-left items-center lg:items-start">
@@ -99,6 +99,28 @@ const Home = () => {
           </div>
         </div>
       </main>
+      <div className="hidden lg:inline absolute top-0 right-0">
+        <div className="mb-5 shadow-md px-10 py-3 bg-[#FFFFFF]">
+          <div>
+            <span className="text-[#000000]">Annual Compliance</span>
+          </div>
+        </div>
+        <div className="mb-5 shadow-md px-10 py-3 bg-[#FFFFFF]">
+          <div>
+            <span className="text-[#000000]">Payroll Services</span>
+          </div>
+        </div>
+        <div className="mb-5 shadow-md px-10 py-3 bg-[#FFFFFF]">
+          <div>
+            <span className="text-[#000000]">Company Formation</span>
+          </div>
+        </div>
+        <div className="mb-5 shadow-md px-10 py-3 bg-[#FFFFFF]">
+          <div>
+            <span className="text-[#000000]">Annual Compliance</span>
+          </div>
+        </div>
+      </div>
       <HomeBottom />
     </div>
   );
